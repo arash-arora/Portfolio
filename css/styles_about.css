@@ -1,0 +1,55 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+/*navigation bar*/
+.navbar{
+  width: 100%;
+  text-align: center;
+  font-size: 2.4em;
+}
+.navbar ul{
+  display: inline-flex;
+}
+.list-item{
+  float: left;
+  padding-right: 20px;
+  list-style-type: none;
+}
+/*navigation bar anchors*/
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+.navbar a:hover{
+  color: pink;
+  transition: 1s;
+}
+/*data styling*/
+.data{
+  position: relative;
+  top: 10px;
+  font-size: 2vw;
+}
+/*TRY text*/
+.try{
+  color: white;
+  text-decoration: none;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-width: 5px;
+}
+.try:hover{
+  color: pink;
+  transition: 1s;
+}
+/*list*/
+ul{
+  text-align: left;
+  display: inline-block;
+}
+.heading{
+  color: red;
+}
