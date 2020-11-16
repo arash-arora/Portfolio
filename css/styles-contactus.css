@@ -24,10 +24,12 @@ body{
 .navbar a{
   text-decoration: none;
   color: white;
+  opacity: 0.8;
 }
 .navbar a:hover{
   color: red;
-  transition: 1s;
+  opacity: 1;
+  transition: 0.5s;
 }
 .form{
   position: absolute;
