@@ -28,7 +28,7 @@ body{
   color: white;
 }
 .navbar a:hover{
-  color: red;
+  
   transition: 1s;
 }
 /*data styling*/
