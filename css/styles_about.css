@@ -29,7 +29,7 @@ body{
 }
 .navbar a:hover{
   color: red;
-  transition: 1s;
+  transition: 0.5s;
 }
 /*data styling*/
 .data{
@@ -47,7 +47,7 @@ body{
 }
 .try:hover{
   color: red;
-  transition: 1s;
+  transition: 0.5s;
 }
 /*list*/
 ul{
