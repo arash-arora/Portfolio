@@ -28,7 +28,7 @@ body{
   color: white;
 }
 .navbar a:hover{
-  color: pink;
+  color: red;
   transition: 1s;
 }
 /*data styling*/
@@ -46,7 +46,7 @@ body{
   border-width: 5px;
 }
 .try:hover{
-  color: pink;
+  color: red;
   transition: 1s;
 }
 /*list*/
