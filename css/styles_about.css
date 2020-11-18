@@ -60,17 +60,13 @@ ul{
   color: red;
 }
 .bottom-container{
-  background-color: lightpink;
+  background-color: #ffffff;
 }
 .bottom-container a{
   text-decoration: none;
-  color: white;
+  color: #bae8e8;
   display: inline;
-}
-hr{
-  border-style: none;
-  border-top-style: dotted;
-  width: 3%;
-  border-color: lightgray;
-  border-width: 6px;
+  line-height: 1;
+  position: relative;
+  top: 8px;
 }
