@@ -59,3 +59,11 @@ ul{
 .heading{
   color: red;
 }
+.bottom-container{
+  background-color: lightpink;
+}
+.bottom-container a{
+  text-decoration: none;
+  color: white;
+  display: inline;
+}
