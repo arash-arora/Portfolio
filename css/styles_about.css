@@ -67,3 +67,10 @@ ul{
   color: white;
   display: inline;
 }
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 3%;
+  border-color: lightgray;
+  border-width: 6px;
+}
