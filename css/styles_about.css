@@ -60,13 +60,34 @@ ul{
   color: red;
 }
 .bottom-container{
-  background-color: #ffffff;
+  background-color: black;
+  color: #28abb9;
 }
 .bottom-container a{
   text-decoration: none;
-  color: #bae8e8;
+  color: #a5ecd7;
   display: inline;
-  line-height: 1;
   position: relative;
   top: 8px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.bottom-container a:hover{
+  color: red;
+  opacity: 1;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: lightgrey;
+  border-width: 6px;
+  width: 3%;
+  padding-bottom: 20px;
+}
+
+.footer-link img{
+  width: 1rem;
+  height: 1rem;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }

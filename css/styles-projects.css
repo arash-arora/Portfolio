@@ -2,12 +2,51 @@ body{
   background-color: black;
   color: #ff4b5c;
   font-family: 'Montserrat', sans-serif;
-}
-h1{
   text-align: center;
-  font-size: 3.9em;
-  font-size: 80px;
-  margin-top: 5px;
+}
+.navbar{
+  width: 100%;
+  text-align: center;
+  font-size: 2.4em;
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  top: 0;
+}
+
+.navbar ul{
+  display: inline-flex;
+}
+.list-item{
+  float: left;
+  padding-right: 25px;
+  list-style-type: none;
+}
+/*navigation bar anchors*/
+.navbar a{
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+}
+.navbar a:hover{
+  opacity: 1;
+  transition: 0.5s;
+  color: red;
+}
+/* ---------  */
+.data{
+  position: relative;
+  top: 110px;
+  font-size: 6.5rem;
+  margin: 0;
+  height: 880px;
+}
+.data h1{
+  font-size: 6rem;
+  text-align: center;
+}
+.data a{
+  width: auto;
 }
 .heading{
   margin-bottom:0;
@@ -21,13 +60,7 @@ hr{
   width: 3%;
   border-color: lightgrey;
 }
-.data{
-  font-size: 1.5em;
-  font-size: 80px;
-  margin: 0;
-  position: relative;
-  left: 17%;
-}
+
 p{
   font-size: 19.5px;
   position: relative;
@@ -36,24 +69,50 @@ p{
 .project{
   transition: 0.3s;
   opacity: 1;
+  text-align: center;
 }
 .project:hover{
   opacity: 0.8;
+}
+.project1{
+  position: relative;
+}
+.project2{
+  position:relative;
+
 }
 a{
   text-decoration: none;
   color: #ff414d;
 }
-.hoverable{
-  padding: 0;
+
+/* bottom-container*/
+.bottom-container{
+  position: relative;
+  top: 50px;
+  left: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #28abb9;
 }
-.hoverable .hover{
-  display: none;
+.bottom-container h1{
+  position: relative;
+  top: 15px;
 }
-.hoverable:hover .normal{
-  display: none;
-}
-.hoverable:hover .hover{
+
+.bottom-container a{
   display: inline;
-  color: white;
+  position: relative;
+  top: 8px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.bottom-container a:hover{
+  opacity: 1;
+}
+.footer-link img{
+  width: 1rem;
+  height: 1rem;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }

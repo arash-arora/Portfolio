@@ -11,12 +11,14 @@ body{
   position: fixed;
   z-index: 2;
   background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .navbar ul{
   display: inline-flex;
 }
 .list-item{
-  float: left;
   padding-right: 25px;
   list-style-type: none;
 }
@@ -32,12 +34,16 @@ body{
   transition: 0.5s;
 }
 .form{
-  position: absolute;
-  top: 180px;
-  left: 20%;
+  position: relative;
+  top: 130px;
+  width: 100%;
+  text-align: center;
 }
 h1{
-  font-size: 2.5em;
+  font-size: 2.5rem;
+}
+h1:hover{
+  color: red;
 }
 input{
   margin-bottom: 7px;
@@ -45,30 +51,41 @@ input{
 .submit:hover{
   color: #ce0f3d;
 }
-.Social{
-  position: absolute;
-  top: 600px;
-  left: 20%;
-  justify-content;
-
-}
-ul{
-    list-style-type: none;
-}
-.soc{
-  font-size: 1.2em;
+.mid-container{
   position: relative;
-  right: 25px;
-  padding-bottom: 7px;
+  height: 550px;
 }
-a{
-  text-decoration: none;
-  color: white;
+.bottom-container{
+  position: relative;
+  top: 15px;
+  left: 0;
+  text-align: center;
+  color: #28abb9;
+}
+.bottom-container h1{
+  position: relative;
+  top: 15px;
+}
+.bottom-container a{
+  display: inline;
+  position: relative;
+  top: 8px;
   opacity: 0.8;
-
+  transition: 0.3s;
 }
-a:hover{
-  color: red;
+.bottom-container a:hover{
   opacity: 1;
-  transition: 0.6s;
+}
+.footer-link img{
+  width: 1rem;
+  height: 1rem;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width: 3%;
+  border-color: lightgray;
 }
