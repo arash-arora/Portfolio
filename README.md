@@ -9,5 +9,6 @@ _____
 
 
 <h4>Hey! I know you'll think this is just a single page, what type of nerd I'm. <br /> 
-<h4>No wait! Let me give you a task, find the nav bar. It exists on the page itslelf! All the required pages exist but you need to find out. <br />
-Hint : it's not on the top try scrolling over the contents maybe :) (that's the answer lol)</h4>
+No wait! Let me give you a task, find the nav bar. It exists on the page itslelf! All the required pages exist but you need to find out. <br /><h4>
+
+<p>Hint : it's not on the top try scrolling over the contents maybe :) (that's the answer lol)</p>
